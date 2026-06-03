@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "eigi-plugins",
+  "description": "Claude Code plugins for Eigi voice agents, calling workflows, and conversation experiences.",
+  "owner": {
+    "name": "Eigi AI"
+  },
+  "plugins": [
+    {
+      "name": "eigi",
+      "displayName": "Eigi",
+      "source": "./",
+      "description": "Create and manage voice agents, calling workflows, and conversation experiences in Claude Code.",
+      "author": {
+        "name": "Eigi AI"
+      },
+      "homepage": "https://eigi.ai",
+      "repository": "https://github.com/eigi-ai/eigi-plugins",
+      "keywords": ["eigi", "mcp", "conversation-rules", "voice", "calling"]
+    }
+  ]
+}

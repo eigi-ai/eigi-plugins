@@ -4,6 +4,8 @@ This repository is structured as a standalone Claude Code plugin named `eigi`.
 
 It connects Claude Code to the hosted Eigi MCP server and adds Eigi conversation prompt rules as a Claude Code skill.
 
+It also includes `.claude-plugin/marketplace.json` so the same repository can be added directly as a marketplace without introducing an extra plugin folder.
+
 ## Repository Structure
 
 ```text
@@ -56,7 +58,17 @@ Check the MCP connection from inside Claude Code:
 
 ## Public Distribution
 
-This repo is now the plugin source, not a marketplace catalog.
+This repo works in two ways:
+
+1. As a direct plugin source for local development with `claude --plugin-dir .`
+2. As a self-hosted marketplace repo with `/plugin marketplace add eigi-ai/eigi-plugins`
+
+To install from the GitHub marketplace repo:
+
+```text
+/plugin marketplace add eigi-ai/eigi-plugins
+/plugin install eigi@eigi-plugins
+```
 
 For Anthropic's community marketplace submission:
 
