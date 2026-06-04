@@ -1,0 +1,18 @@
+{
+  "name": "eigi",
+  "version": "1.0.0",
+  "description": "Create and manage voice agents, calling workflows, and conversation experiences in Codex.",
+  "author": {
+    "name": "Eigi AI"
+  },
+  "homepage": "https://eigi.ai",
+  "repository": "https://github.com/eigi-ai/eigi-plugins",
+  "keywords": ["eigi", "mcp", "conversation-rules", "voice", "hinglish"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Eigi",
+    "shortDescription": "Voice agents, calling workflows, and conversation experiences.",
+    "category": "Productivity"
+  }
+}
